@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    /* Base */
+    --bg: #0B0F1A;
+    --surface: #11182A;
+    --surface-2: #16203A;
+    --border: #273252;
+
+    /* Texto */
+    --text: #E7ECF6;
+    --text-2: #B7C0D6;
+    --text-3: #7E8AA8;
+
+    /* Acentos */
+    --primary: #6EA8FE;
+    --secondary: #A78BFA;
+    --highlight: #5EEAD4;
+
+    /* API background/foreground */
+    --background: var(--bg);
+    --foreground: var(--text);
+
+    /* IMPORTANTE: define --color-* aquí para que Tailwind los vea */
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-surface: var(--surface);
+    --color-surface-2: var(--surface-2);
+    --color-border: var(--border);
+    --color-text: var(--text);
+    --color-text-2: var(--text-2);
+    --color-text-3: var(--text-3);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-highlight: var(--highlight);
 }
 
+/* Opcional: si quieres usar @theme para otras cosas */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: var(--bg);
+        --foreground: var(--text);
+        --color-background: var(--background);
+        --color-foreground: var(--foreground);
+    }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
 }
