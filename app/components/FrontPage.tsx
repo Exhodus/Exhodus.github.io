@@ -114,16 +114,16 @@ export default function FrontPage(){
                         Ver proyectos
                     </a>
                     <a
-                        href="mailto:garciax207@gmail.com"
-                        className="px-8 py-3 border-2 bg-[var(--color-surface)] border-[var(--color-border)] rounded-lg hover:border-[var(--color-primary)] hover:scale-110 transition-all duration-200"
-                    >
-                        Contactar
-                    </a>
-                    <a
                         href="/sobremi"
                         className="px-8 py-3 bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-lg hover:border-[var(--color-primary)] hover:scale-110 transition-all duration-200"
                     >
                         Sobre mí
+                    </a>
+                    <a
+                        href="mailto:garciax207@gmail.com"
+                        className="px-8 py-3 border-2 bg-[var(--color-surface)] border-[var(--color-border)] rounded-lg hover:border-[var(--color-primary)] hover:scale-110 transition-all duration-200"
+                    >
+                        Contactar
                     </a>
                 </div>
             </div>
