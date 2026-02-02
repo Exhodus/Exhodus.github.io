@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/PortfolioDefinitivo/portfolio/app/components/projects/ProjectComponent.tsx"],"sourcesContent":["\r\ntype projectType = {\r\n    title: string,\r\n    description: string,\r\n\r\n}\r\n\r\nexport default function ProjectComponent(props: projectType){\r\n\r\n    return(\r\n        <div>\r\n            <h1>Nombre</h1>\r\n            <article>Descripción</article>\r\n            <section>Tecnologias</section>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAOe,SAAS,iBAAiB,KAAkB;IAEvD,qBACI,8OAAC;;0BACG,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAQ;;;;;;0BACT,8OAAC;0BAAQ;;;;;;;;;;;;AAGrB"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":["file:///D:/PortfolioDefinitivo/portfolio/app/page.tsx"],"sourcesContent":["\nimport FrontPage from \"@/app/components/FrontPage\";\nimport ProjectComponent from \"@/app/components/projects/ProjectComponent\";\n\nexport default function Home() {\n  return (\n    <div className=\"h-full w-full flex justify-center\">\n        <ProjectComponent/>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC,6JAAgB;;;;;;;;;;AAGzB"}}]
+}
