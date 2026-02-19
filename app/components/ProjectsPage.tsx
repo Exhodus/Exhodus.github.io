@@ -90,7 +90,9 @@ export default function ProjectPage() {
         if (!emblaApi) return;
         onSelect();
         emblaApi.on('select', onSelect);
-        return () => emblaApi.off('select', onSelect);
+        return () => {
+            emblaApi.off('select', onSelect);
+        };
     }, [emblaApi, onSelect]);
 
     return (

@@ -1,7 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProjectComponent({ title, description, tech, url }) {
+type projComponent = {
+    title: string;
+    description: string;
+    tech: string;
+    url: string;
+}
+
+export default function ProjectComponent({ title, description, tech, url } : projComponent) {
     // PROTECCIÓN CONTRA ERRORES: Si tech es undefined, usa ""
     const safeTech = tech || "";
     const techTags = safeTech.split(',').filter(t => t.trim() !== "").map(t => t.trim());
@@ -50,7 +57,7 @@ export default function ProjectComponent({ title, description, tech, url }) {
 
                     {/* Tags */}
                     <div className="flex flex-wrap gap-2">
-                        {techTags.map((tag, i) => (
+                        {techTags.map((tag: string, i: number) => (
                             <span key={i} className="px-3 py-1 text-xs font-bold uppercase tracking-wider bg-[var(--color-primary)]/10 text-[var(--color-primary)] rounded-md">
                                 {tag}
                             </span>

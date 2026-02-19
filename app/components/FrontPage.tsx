@@ -129,8 +129,17 @@ export default function FrontPage() {
     );
 }
 
+interface SocialCardProps {
+    href: string;
+    label: string;
+    icon?: string;       // Opcional
+    isIcon?: boolean;    // Opcional
+    children?: React.ReactNode; // Opcional
+    download?: boolean;  // Opcional
+    isPrimary?: boolean; // Opcional
+}
 // ... SocialCard (Tamaño reducido a w-10 h-10) ...
-function SocialCard({ href, icon, isIcon, children, label, download, isPrimary }) {
+function SocialCard({ href, icon, isIcon, children, label, download, isPrimary }: SocialCardProps) {
     return (
         <a
             href={href}
@@ -149,7 +158,7 @@ function SocialCard({ href, icon, isIcon, children, label, download, isPrimary }
                     {children}
                 </div>
             ) : (
-                <Image src={icon} width={20} height={20} alt={label} className="transition-transform group-hover:scale-110 duration-300 opacity-90 group-hover:opacity-100" />
+                <Image src={icon || ''} width={20} height={20} alt={label} className="transition-transform group-hover:scale-110 duration-300 opacity-90 group-hover:opacity-100" />
             )}
         </a>
     );
