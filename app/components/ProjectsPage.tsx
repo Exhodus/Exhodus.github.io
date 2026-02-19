@@ -2,18 +2,18 @@
 
 import ProjectComponent from "@/app/components/projects/ProjectComponent";
 import useEmblaCarousel from "embla-carousel-react";
-import {useCallback, useEffect, useState} from "react";
+import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 
+// ... TUS DATOS DE PROYECTOS AQUÍ (MISMOS QUE ANTES) ...
 const projects = [
     {
         title: "Sistema de Facturación REST API",
-        description: "API REST para gestión de facturación empresarial desarrollada con Spring Boot (Java 21) y MySQL " +
-            "que permite gestionar clientes, productos y facturas con numeración automática y control de estados. " +
-            "El sistema incluye arquitectura en capas con Spring Data JPA, catálogo de productos clasificados por tipo y " +
-            "relaciones jerárquicas completas entre entidades. Actualmente estoy implementando el sistema de DTOs para separar " +
-            "la capa de persistencia de la API. Los próximos pasos incluyen completar la gestión de usuarios y " +
-            "aprender a implementar seguridad con Spring Security y JWT para autenticación y autorización.",
+        description: "Sistema de facturación empresarial desarrollado con Java 21 y Spring Boot, siguiendo " +
+            "arquitectura en capas (Controller, Service, Repository).Implementa modelado relacional completo con " +
+            "@OneToMany y @ManyToOne, gestión de entidades mediante Spring Data JPA (Hibernate) y persistencia en " +
+            "MySQL.La API expone endpoints REST para gestión de clientes, productos y facturas, utilizando DTOs para " +
+            "desacoplar la capa de persistencia de la capa de presentación.Incluye control de versiones con Git",
         tech: "Spring Boot, Spring Data JPA, MySQL, Hibernate",
         url: "https://github.com/Exhodus/FacturationAPI"
     },
@@ -75,11 +75,11 @@ const projects = [
 ]
 
 export default function ProjectPage() {
-
-    const [emblaRef, emblaApi] = useEmblaCarousel({loop: true});
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, duration: 25 });
     const [selectedIndex, setSelectedIndex] = useState(0);
-    const scrollPrev = () => emblaApi?.scrollPrev();
-    const scrollNext = () => emblaApi?.scrollNext();
+
+    const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+    const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
 
     const onSelect = useCallback(() => {
         if (!emblaApi) return;
@@ -88,87 +88,73 @@ export default function ProjectPage() {
 
     useEffect(() => {
         if (!emblaApi) return;
-
-        onSelect(); // Inicializar el índice correcto
-        emblaApi.on('select', onSelect); // Escuchar cambios
-        emblaApi.on('reInit', onSelect); // Por si se reinicia
-
-        return () => {
-            emblaApi.off('select', onSelect);
-            emblaApi.off('reInit', onSelect);
-        };
+        onSelect();
+        emblaApi.on('select', onSelect);
+        return () => emblaApi.off('select', onSelect);
     }, [emblaApi, onSelect]);
 
     return (
-        <>
+        <main className="h-screen w-full bg-[var(--color-background)] relative flex items-center justify-center overflow-hidden">
 
-            <nav className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-background)]/80 backdrop-blur-md border-b border-[var(--color-border)]">
-                <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
-                    <Link href="/" className="text-2xl font-bold text-[var(--color-primary)] hover:text-[var(--color-highlight)] transition">
-                        XGB
+            {/* Navbar Flotante Minimalista */}
+            <nav className="absolute top-0 w-full z-50 py-6 px-8 flex justify-between items-center pointer-events-none">
+                <Link href="/" className="pointer-events-auto text-2xl font-bold text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition">
+                    XGB<span className="text-[var(--color-primary)]">.</span>
+                </Link>
+                <div className="flex gap-2">
+                    <Link href="/sobremi" className="pointer-events-auto px-6 py-2 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)]/50 backdrop-blur hover:bg-[var(--color-foreground)] hover:text-[var(--color-background)] transition-all">
+                        Sobre mi
                     </Link>
-                    <div className="flex items-center gap-6">
-                        <Link href="/" className="text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition">
-                            Inicio
-                        </Link>
-                        <Link href="/sobremi" className="text-[var(--color-primary)] transition">
-                            Proyectos
-                        </Link>
-                        <Link href="/sobremi" className="text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition">
-                            Sobre mí
-                        </Link>
-                        <a href="mailto:garciax207@gmail.com" className="px-4 py-2 bg-[var(--color-primary)] text-[var(--color-background)] rounded-lg hover:bg-[var(--color-highlight)] transition">
-                            Contactar
-                        </a>
-                    </div>
+                    <Link href="/" className="pointer-events-auto px-6 py-2 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)]/50 backdrop-blur hover:bg-[var(--color-foreground)] hover:text-[var(--color-background)] transition-all">
+                        Volver al Inicio
+                    </Link>
                 </div>
             </nav>
-            <div className="relative w-full h-screen flex items-center justify-center px-20">
 
-                {/* Botón Anterior (izquierda) */}
-                <button
-                    onClick={scrollPrev}
-                    className="absolute left-10 z-10 w-12 h-12 flex pb-0.75 items-center-safe justify-center bg-[var(--color-surface)] border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-full hover:bg-[var(--color-primary)] hover:text-[var(--color-background)] transition-all duration-200 hover:scale-110"
-                    aria-label="Proyecto anterior"
-                >
-                    <span className="text-2xl">←</span>
+            {/* Fondo Decorativo */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-[var(--color-primary)]/5 rounded-full blur-[120px]"></div>
+                <div className="absolute bottom-[-10%] right-[-10%] w-[40vw] h-[40vw] bg-[var(--color-secondary)]/5 rounded-full blur-[120px]"></div>
+            </div>
+
+            {/* CONTENEDOR PRINCIPAL - Define el tamaño "Pantalla Completa" */}
+            <div className="relative w-full max-w-[1600px] h-[85vh] mt-10 px-4 lg:px-12 flex items-center justify-center gap-6">
+
+                {/* Flecha Izquierda */}
+                <button onClick={scrollPrev} className="hidden lg:flex flex-shrink-0 w-16 h-16 items-center justify-center rounded-full border border-[var(--color-border)] text-[var(--color-text-2)] hover:text-[var(--color-primary)] hover:border-[var(--color-primary)] hover:scale-110 transition-all z-20 bg-[var(--color-background)]">
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" /></svg>
                 </button>
 
-                {/* Carousel */}
-                <div className="overflow-hidden w-full max-w-5xl" ref={emblaRef}>
-                    <div className="flex">
+                {/* Viewport del Carrusel - Ocupa todo el espacio central */}
+                <div className="overflow-hidden w-full h-full rounded-[2.5rem] shadow-2xl" ref={emblaRef}>
+                    <div className="flex h-full touch-pan-y">
                         {projects.map((project, idx) => (
-                            <div key={idx} className="flex-[0_0_100%] flex justify-center">
+                            <div key={idx} className="flex-[0_0_100%] min-w-0 h-full p-2">
+                                {/* Pasamos h-full al componente */}
                                 <ProjectComponent {...project} />
                             </div>
                         ))}
                     </div>
                 </div>
 
-                {/* Botón Siguiente (derecha) */}
-                <button
-                    onClick={scrollNext}
-                    className="absolute right-10 z-10 w-12 h-12 flex pb-0.75 items-center justify-center bg-[var(--color-surface)] border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-full hover:bg-[var(--color-primary)] hover:text-[var(--color-background)] transition-all duration-200 hover:scale-110"
-                    aria-label="Siguiente proyecto"
-                >
-                    <span className="text-2xl">→</span>
+                {/* Flecha Derecha */}
+                <button onClick={scrollNext} className="hidden lg:flex flex-shrink-0 w-16 h-16 items-center justify-center rounded-full border border-[var(--color-border)] text-[var(--color-text-2)] hover:text-[var(--color-primary)] hover:border-[var(--color-primary)] hover:scale-110 transition-all z-20 bg-[var(--color-background)]">
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" /></svg>
                 </button>
-
-                {/* Indicador opcional (abajo) */}
-                <div className="absolute bottom-10 flex gap-2">
-                    {projects.map((title, idx) => (
-                        <button
-                            key={idx}
-                            onClick={() => emblaApi?.scrollTo(idx)}
-                            className={`w-3 h-3 rounded-full transition ${
-                                idx === selectedIndex ? 'bg-[var(--color-primary)]' : 'bg-[var(--color-border)] hover:bg-[var(--color-secondary)]'
-                            }`}
-                            aria-label={`Ir al proyecto ${idx + 1}`}
-                        />
-                    ))}
-                </div>
             </div>
 
-        </>
-    )
+            {/* Controles Móviles (solo visibles en móvil) */}
+            <div className="absolute bottom-6 flex lg:hidden gap-4 z-30">
+                <button onClick={scrollPrev} className="p-4 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] shadow-lg">←</button>
+                <div className="px-4 py-4 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] shadow-lg font-mono text-sm">
+                    {selectedIndex + 1} / {projects.length}
+                </div>
+                <button onClick={scrollNext} className="p-4 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] shadow-lg">→</button>
+            </div>
+
+            {/* Barra de progreso inferior */}
+            <div className="absolute bottom-0 left-0 h-1 bg-[var(--color-primary)] transition-all duration-300 ease-out" style={{ width: `${((selectedIndex + 1) / projects.length) * 100}%` }}></div>
+
+        </main>
+    );
 }

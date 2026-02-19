@@ -136,6 +136,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+// ... TUS DATOS DE PROYECTOS AQUÍ (MISMOS QUE ANTES) ...
 const projects = [
     {
         title: "Sistema de Facturación REST API",
@@ -177,11 +178,20 @@ const projects = [
 function ProjectPage() {
     _s();
     const [emblaRef, emblaApi] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$react$2f$esm$2f$embla$2d$carousel$2d$react$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
-        loop: true
+        loop: true,
+        duration: 25
     });
     const [selectedIndex, setSelectedIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
-    const scrollPrev = ()=>emblaApi?.scrollPrev();
-    const scrollNext = ()=>emblaApi?.scrollNext();
+    const scrollPrev = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
+        "ProjectPage.useCallback[scrollPrev]": ()=>emblaApi?.scrollPrev()
+    }["ProjectPage.useCallback[scrollPrev]"], [
+        emblaApi
+    ]);
+    const scrollNext = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
+        "ProjectPage.useCallback[scrollNext]": ()=>emblaApi?.scrollNext()
+    }["ProjectPage.useCallback[scrollNext]"], [
+        emblaApi
+    ]);
     const onSelect = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
         "ProjectPage.useCallback[onSelect]": ()=>{
             if (!emblaApi) return;
@@ -193,184 +203,230 @@ function ProjectPage() {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ProjectPage.useEffect": ()=>{
             if (!emblaApi) return;
-            onSelect(); // Inicializar el índice correcto
-            emblaApi.on('select', onSelect); // Escuchar cambios
-            emblaApi.on('reInit', onSelect); // Por si se reinicia
+            onSelect();
+            emblaApi.on('select', onSelect);
             return ({
-                "ProjectPage.useEffect": ()=>{
-                    emblaApi.off('select', onSelect);
-                    emblaApi.off('reInit', onSelect);
-                }
+                "ProjectPage.useEffect": ()=>emblaApi.off('select', onSelect)
             })["ProjectPage.useEffect"];
         }
     }["ProjectPage.useEffect"], [
         emblaApi,
         onSelect
     ]);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+        className: "h-screen w-full bg-[var(--color-background)] relative flex items-center justify-center overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                className: "fixed top-0 left-0 right-0 z-50 bg-[var(--color-background)]/80 backdrop-blur-md border-b border-[var(--color-border)]",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-8 py-4 flex justify-between items-center",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/",
-                            className: "text-2xl font-bold text-[var(--color-primary)] hover:text-[var(--color-highlight)] transition",
-                            children: "XGB"
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/ProjectsPage.tsx",
-                            lineNumber: 107,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-center gap-6",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/",
-                                    className: "text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition",
-                                    children: "Inicio"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/ProjectsPage.tsx",
-                                    lineNumber: 111,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/sobremi",
-                                    className: "text-[var(--color-primary)] transition",
-                                    children: "Proyectos"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/ProjectsPage.tsx",
-                                    lineNumber: 114,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/sobremi",
-                                    className: "text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition",
-                                    children: "Sobre mí"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/ProjectsPage.tsx",
-                                    lineNumber: 117,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "mailto:garciax207@gmail.com",
-                                    className: "px-4 py-2 bg-[var(--color-primary)] text-[var(--color-background)] rounded-lg hover:bg-[var(--color-highlight)] transition",
-                                    children: "Contactar"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/ProjectsPage.tsx",
-                                    lineNumber: 120,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/components/ProjectsPage.tsx",
-                            lineNumber: 110,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/components/ProjectsPage.tsx",
-                    lineNumber: 106,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/components/ProjectsPage.tsx",
-                lineNumber: 105,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative w-full h-screen flex items-center justify-center px-20",
+                className: "absolute top-0 w-full z-50 py-6 px-8 flex justify-between items-center pointer-events-none",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: scrollPrev,
-                        className: "absolute left-10 z-10 w-12 h-12 flex pb-0.75 items-center-safe justify-center bg-[var(--color-surface)] border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-full hover:bg-[var(--color-primary)] hover:text-[var(--color-background)] transition-all duration-200 hover:scale-110",
-                        "aria-label": "Proyecto anterior",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-2xl",
-                            children: "←"
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/ProjectsPage.tsx",
-                            lineNumber: 134,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/ProjectsPage.tsx",
-                        lineNumber: 129,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "overflow-hidden w-full max-w-5xl",
-                        ref: emblaRef,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex",
-                            children: projects.map((project, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex-[0_0_100%] flex justify-center",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$projects$2f$ProjectComponent$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        ...project
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/components/ProjectsPage.tsx",
-                                        lineNumber: 142,
-                                        columnNumber: 33
-                                    }, this)
-                                }, idx, false, {
-                                    fileName: "[project]/app/components/ProjectsPage.tsx",
-                                    lineNumber: 141,
-                                    columnNumber: 29
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/ProjectsPage.tsx",
-                            lineNumber: 139,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/ProjectsPage.tsx",
-                        lineNumber: 138,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: scrollNext,
-                        className: "absolute right-10 z-10 w-12 h-12 flex pb-0.75 items-center justify-center bg-[var(--color-surface)] border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-full hover:bg-[var(--color-primary)] hover:text-[var(--color-background)] transition-all duration-200 hover:scale-110",
-                        "aria-label": "Siguiente proyecto",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-2xl",
-                            children: "→"
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/ProjectsPage.tsx",
-                            lineNumber: 154,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/ProjectsPage.tsx",
-                        lineNumber: 149,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute bottom-10 flex gap-2",
-                        children: projects.map((title, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>emblaApi?.scrollTo(idx),
-                                className: `w-3 h-3 rounded-full transition ${idx === selectedIndex ? 'bg-[var(--color-primary)]' : 'bg-[var(--color-border)] hover:bg-[var(--color-secondary)]'}`,
-                                "aria-label": `Ir al proyecto ${idx + 1}`
-                            }, idx, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/",
+                        className: "pointer-events-auto text-2xl font-bold text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition",
+                        children: [
+                            "XGB",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--color-primary)]",
+                                children: "."
+                            }, void 0, false, {
                                 fileName: "[project]/app/components/ProjectsPage.tsx",
-                                lineNumber: 160,
-                                columnNumber: 25
-                            }, this))
+                                lineNumber: 103,
+                                columnNumber: 24
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 102,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/",
+                        className: "pointer-events-auto px-6 py-2 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)]/50 backdrop-blur hover:bg-[var(--color-foreground)] hover:text-[var(--color-background)] transition-all",
+                        children: "Volver al Inicio"
                     }, void 0, false, {
                         fileName: "[project]/app/components/ProjectsPage.tsx",
-                        lineNumber: 158,
+                        lineNumber: 105,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/ProjectsPage.tsx",
-                lineNumber: 126,
+                lineNumber: 101,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 overflow-hidden pointer-events-none",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-[var(--color-primary)]/5 rounded-full blur-[120px]"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 112,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute bottom-[-10%] right-[-10%] w-[40vw] h-[40vw] bg-[var(--color-secondary)]/5 rounded-full blur-[120px]"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 113,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/ProjectsPage.tsx",
+                lineNumber: 111,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative w-full max-w-[1600px] h-[85vh] px-4 lg:px-12 flex items-center justify-center gap-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: scrollPrev,
+                        className: "hidden lg:flex flex-shrink-0 w-16 h-16 items-center justify-center rounded-full border border-[var(--color-border)] text-[var(--color-text-2)] hover:text-[var(--color-primary)] hover:border-[var(--color-primary)] hover:scale-110 transition-all z-20 bg-[var(--color-background)]",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                            className: "w-8 h-8",
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                strokeWidth: 1.5,
+                                d: "M15 19l-7-7 7-7"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/ProjectsPage.tsx",
+                                lineNumber: 121,
+                                columnNumber: 100
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/components/ProjectsPage.tsx",
+                            lineNumber: 121,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 120,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "overflow-hidden w-full h-full rounded-[2.5rem] shadow-2xl",
+                        ref: emblaRef,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex h-full touch-pan-y",
+                            children: projects.map((project, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex-[0_0_100%] min-w-0 h-full p-2",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$projects$2f$ProjectComponent$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        ...project
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                                        lineNumber: 130,
+                                        columnNumber: 33
+                                    }, this)
+                                }, idx, false, {
+                                    fileName: "[project]/app/components/ProjectsPage.tsx",
+                                    lineNumber: 128,
+                                    columnNumber: 29
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/app/components/ProjectsPage.tsx",
+                            lineNumber: 126,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 125,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: scrollNext,
+                        className: "hidden lg:flex flex-shrink-0 w-16 h-16 items-center justify-center rounded-full border border-[var(--color-border)] text-[var(--color-text-2)] hover:text-[var(--color-primary)] hover:border-[var(--color-primary)] hover:scale-110 transition-all z-20 bg-[var(--color-background)]",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                            className: "w-8 h-8",
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                strokeWidth: 1.5,
+                                d: "M9 5l7 7-7 7"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/ProjectsPage.tsx",
+                                lineNumber: 138,
+                                columnNumber: 100
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/components/ProjectsPage.tsx",
+                            lineNumber: 138,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 137,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/ProjectsPage.tsx",
+                lineNumber: 117,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-6 flex lg:hidden gap-4 z-30",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: scrollPrev,
+                        className: "p-4 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] shadow-lg",
+                        children: "←"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 144,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "px-4 py-4 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] shadow-lg font-mono text-sm",
+                        children: [
+                            selectedIndex + 1,
+                            " / ",
+                            projects.length
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 145,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: scrollNext,
+                        className: "p-4 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] shadow-lg",
+                        children: "→"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/ProjectsPage.tsx",
+                        lineNumber: 148,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/ProjectsPage.tsx",
+                lineNumber: 143,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-0 left-0 h-1 bg-[var(--color-primary)] transition-all duration-300 ease-out",
+                style: {
+                    width: `${(selectedIndex + 1) / projects.length * 100}%`
+                }
+            }, void 0, false, {
+                fileName: "[project]/app/components/ProjectsPage.tsx",
+                lineNumber: 152,
                 columnNumber: 13
             }, this)
         ]
-    }, void 0, true);
+    }, void 0, true, {
+        fileName: "[project]/app/components/ProjectsPage.tsx",
+        lineNumber: 98,
+        columnNumber: 9
+    }, this);
 }
-_s(ProjectPage, "A02pAclx/jHBFsqIWQi3Z4FIRKs=", false, function() {
+_s(ProjectPage, "lQ1nrobXl8elVbVEUYCUEz1Je/k=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$carousel$2d$react$2f$esm$2f$embla$2d$carousel$2d$react$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
     ];

@@ -1,6 +1,6 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/sobremi/page.js")
-R.c("server/chunks/ssr/node_modules_next_dist_cea19908._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__ab730462._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_cea19908._.js")
 R.c("server/chunks/ssr/node_modules_e2d1c5df._.js")
 R.c("server/chunks/ssr/[externals]__e8a2741f._.js")
 R.c("server/chunks/ssr/app_b9b1292a._.js")

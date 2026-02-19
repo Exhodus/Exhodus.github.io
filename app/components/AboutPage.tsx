@@ -1,237 +1,264 @@
 import Link from "next/link";
+// import Image from "next/image"; // Por si quieres añadir foto tuya en el futuro
 
 export default function AboutPage() {
     return (
-        <>
-            {/* Navbar fijo arriba */}
-            <nav className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-background)]/80 backdrop-blur-md border-b border-[var(--color-border)]">
-                <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
-                    <Link href="/" className="text-2xl font-bold text-[var(--color-primary)] hover:text-[var(--color-highlight)] transition">
-                        XGB
+        <div className="min-h-screen bg-[var(--color-background)] selection:bg-[var(--color-primary)] selection:text-white">
+
+            {/* Navbar fijo (Compacto) */}
+            <nav className="absolute top-0 w-full z-50 py-6 px-8 flex justify-between items-center pointer-events-none">
+                <Link href="/" className="pointer-events-auto text-2xl font-bold text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition">
+                    XGB<span className="text-[var(--color-primary)]">.</span>
+                </Link>
+                <div className="flex gap-2">
+                    <Link href="/proyectos" className="pointer-events-auto px-6 py-2 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)]/50 backdrop-blur hover:bg-[var(--color-foreground)] hover:text-[var(--color-background)] transition-all">
+                        Proyectos
                     </Link>
-                    <div className="flex items-center gap-6">
-                        <Link href="/" className="text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition">
-                            Inicio
-                        </Link>
-                        <Link href="/proyectos" className="text-[var(--color-foreground)] hover:text-[var(--color-primary)] transition">
-                            Proyectos
-                        </Link>
-                        <Link href="/sobremi" className="text-[var(--color-primary)] transition">
-                            Sobre mí
-                        </Link>
-                        <a href="mailto:garciax207@gmail.com" className="px-4 py-2 bg-[var(--color-primary)] text-[var(--color-background)] rounded-lg hover:bg-[var(--color-highlight)] transition">
-                            Contactar
-                        </a>
-                    </div>
+                    <Link href="/" className="pointer-events-auto px-6 py-2 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)]/50 backdrop-blur hover:bg-[var(--color-foreground)] hover:text-[var(--color-background)] transition-all">
+                        Volver al Inicio
+                    </Link>
                 </div>
             </nav>
 
-            {/* Contenido principal */}
-            <main className="pt-24 pb-16 px-8 max-w-5xl mx-auto">
+            <main className="pt-28 pb-16 px-6 max-w-4xl mx-auto relative">
 
-                {/* Hero section */}
-                <section className="mb-16 text-center">
-                    <h1 className="text-5xl font-bold bg-gradient-to-r from-[var(--color-primary)] via-[var(--color-secondary)] to-[var(--color-highlight)] bg-clip-text text-transparent mb-4">
-                        Sobre mí
+                {/* Decoración de fondo (Más sutil) */}
+                <div className="absolute top-20 right-0 w-64 h-64 bg-[var(--color-primary)]/5 rounded-full blur-[100px] -z-10"></div>
+                <div className="absolute top-40 left-0 w-64 h-64 bg-[var(--color-secondary)]/5 rounded-full blur-[80px] -z-10"></div>
+
+                {/* HERO SECTION (Compacto) */}
+                <section className="mb-16 text-center animate-fade-in-up">
+                    <div className="inline-block mb-3 px-3 py-1 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] text-[10px] font-mono text-[var(--color-primary)] tracking-widest uppercase">
+                        Perfil Profesional
+                    </div>
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-[var(--color-foreground)] mb-4 leading-tight">
+                        Más que código,<br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">
+                            soluciones reales.
+                        </span>
                     </h1>
-                    <p className="text-xl text-[var(--color-text-2)] max-w-2xl mx-auto">
-                        Full-stack developer graduado en DAM-vi. <br/>De la logística al código,
-                        resolución de problemas y aprendizaje continuo.
-
+                    <p className="text-base md:text-lg text-[var(--color-text-2)] max-w-2xl mx-auto leading-relaxed text-balance">
+                        Full Stack Developer transformando 10 años de experiencia logística en software eficiente y escalable.
                     </p>
                 </section>
 
-                {/* Quién soy */}
-                <section className="mb-16 bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-2xl p-8 hover:border-[var(--color-primary)] transition-colors">
-                    <h2 className="text-3xl font-semibold text-[var(--color-secondary)] mb-6">¿Quién soy?</h2>
-                    <div className="space-y-4 text-[var(--color-text-2)] leading-relaxed">
-                        <p>Soy desarrollador full-stack recién graduado en DAM con especialización en videojuegos.
-                            Durante años trabajé en logística, donde desarrollé habilidades analíticas, resolución de
-                            problemas bajo presión y organización que ahora aplico al desarrollo de software. En 2023
-                            decidí convertir mi pasión por la programación en mi carrera profesional.</p>
-                        <p>Me motiva crear soluciones técnicas que funcionen bien y sean mantenibles.
-                            Disfruto tanto del frontend (donde puedo ver el resultado inmediato) como del backend
-                            (resolviendo lógica compleja y arquitectura). Mi curiosidad me lleva a entender cómo
-                            funcionan las cosas por dentro, desde algoritmos de raycasting hasta arquitecturas
-                            REST con Spring Boot.</p>
-                        <p>Busco mi primer rol profesional como desarrollador, donde pueda aportar
-                            mi capacidad de aprendizaje rápido, adaptabilidad y mentalidad resolutiva.
-                            Estoy listo para crecer en un equipo que valore la calidad del código, el
-                            trabajo colaborativo y el aprendizaje continuo. Disponible en Barcelona y remoto.</p>
-                    </div>
-                </section>
-
-                {/* Habilidades técnicas */}
-                <section className="mb-16">
-                    <h2 className="text-3xl font-semibold text-[var(--color-secondary)] mb-6">Habilidades Técnicas</h2>
-
-                    {/* Sección 1: Tecnologías que domino */}
-                    <div className="mb-8">
-                        <h3 className="text-2xl font-semibold text-[var(--color-foreground)] mb-4 flex items-center gap-3">
-                            <span className="w-2 h-2 bg-[var(--color-primary)] rounded-full"></span>
-                            Tecnologías con las que trabajo
-                        </h3>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-                            {/* Frontend */}
-                            <div className="bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-xl p-6 hover:border-[var(--color-primary)] transition-colors">
-                                <h4 className="text-lg font-semibold text-[var(--color-primary)] mb-4">Frontend</h4>
-                                <ul className="space-y-2 text-[var(--color-text-2)]">
-                                    <li>• HTML5, CSS3, JavaScript</li>
-                                    <li>• TypeScript</li>
-                                    <li>• React, Next.js</li>
-                                    <li>• Tailwind CSS</li>
-                                </ul>
-                            </div>
-
-                            {/* Backend */}
-                            <div className="bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-xl p-6 hover:border-[var(--color-primary)] transition-colors">
-                                <h4 className="text-lg font-semibold text-[var(--color-primary)] mb-4">Backend</h4>
-                                <ul className="space-y-2 text-[var(--color-text-2)]">
-                                    <li>• Java</li>
-                                    <li>• Spring Boot</li>
-                                    <li>• Hibernate, Spring Data JPA</li>
-                                    <li>• Node.js</li>
-                                    <li>• APIs REST</li>
-                                </ul>
-                            </div>
-
-                            {/* Bases de datos */}
-                            <div className="bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-xl p-6 hover:border-[var(--color-primary)] transition-colors">
-                                <h4 className="text-lg font-semibold text-[var(--color-primary)] mb-4">Bases de Datos</h4>
-                                <ul className="space-y-2 text-[var(--color-text-2)]">
-                                    <li>• MySQL</li>
-                                    <li>• PostgreSQL</li>
-                                    <li>• Diseño relacional</li>
-                                    <li>• Optimización de queries</li>
-                                </ul>
-                            </div>
+                {/* QUIÉN SOY + HISTORIA (Grid ajustado) */}
+                <section className="mb-16 grid grid-cols-1 md:grid-cols-12 gap-6">
+                    <div className="md:col-span-8 bg-[var(--color-surface)]/50 backdrop-blur-sm border border-[var(--color-border)] rounded-3xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
+                        <h2 className="text-xl font-bold text-[var(--color-foreground)] mb-4 flex items-center gap-2">
+                            <span className="text-2xl">👋</span> ¿Quién soy?
+                        </h2>
+                        <div className="space-y-3 text-sm md:text-base text-[var(--color-text-2)] leading-relaxed text-pretty">
+                            <p>
+                                Soy un <strong className="text-[var(--color-foreground)]">desarrollador de software</strong> apasionado por entender cómo funcionan las cosas "bajo el capó".
+                            </p>
+                            <p>
+                                Mi trayectoria es poco convencional: durante una década trabajé en logística, donde aprendí a gestionar el caos, optimizar rutas y trabajar bajo presión. En 2023, decidí volcar esa mentalidad analítica en mi verdadera pasión: la programación.
+                            </p>
+                            <p>
+                                Hoy construyo aplicaciones web robustas con <span className="text-[var(--color-secondary)] font-medium">Spring Boot</span> y <span className="text-[var(--color-primary)] font-medium">React</span>, buscando siempre el equilibrio entre un código limpio y una experiencia de usuario fluida.
+                            </p>
                         </div>
                     </div>
 
-                    {/* Sección 2: Tecnologías con conocimientos básicos */}
-                    <div>
-                        <h3 className="text-2xl font-semibold text-[var(--color-foreground)] mb-4 flex items-center gap-3">
-                            <span className="w-2 h-2 bg-[var(--color-secondary)] rounded-full"></span>
-                            Conocimientos adicionales
-                        </h3>
-                        <div className="bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-xl p-6 hover:border-[var(--color-secondary)] transition-colors">
-                            <p className="text-[var(--color-text-3)] text-sm mb-3">Tecnologías con las que he trabajado en entorno académico:</p>
-                            <ul className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2 text-[var(--color-text-2)]">
-                                <li>• MongoDB</li>
-                                <li>• PyMongo</li>
-                                <li>• Django</li>
-                                <li>• .NET Core / ASP.NET</li>
-                                <li>• Entity Framework</li>
+                    {/* Stats Laterales (Compacto) */}
+                    <div className="md:col-span-4 flex flex-col gap-4">
+                        <div className="flex-1 bg-[var(--color-primary)]/5 border border-[var(--color-primary)]/20 rounded-3xl p-6 flex flex-col justify-center items-center text-center group hover:bg-[var(--color-primary)]/10 transition-colors">
+                            <span className="text-4xl font-bold text-[var(--color-primary)] mb-1">10+</span>
+                            <span className="text-xs font-bold text-[var(--color-foreground)] uppercase tracking-wide">Años Logística</span>
+                            <span className="text-[10px] text-[var(--color-text-2)] mt-1 opacity-80">(Soft skills)</span>
+                        </div>
+                        <div className="flex-1 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-3xl p-6 flex flex-col justify-center items-center text-center">
+                            <span className="text-4xl font-bold text-[var(--color-foreground)] mb-1">DAM</span>
+                            <span className="text-xs font-bold text-[var(--color-foreground)] uppercase tracking-wide">Graduado</span>
+                            <span className="text-[10px] text-[var(--color-text-2)] mt-1">Esp. Videojuegos</span>
+                        </div>
+                    </div>
+                </section>
+
+                {/* STACK TÉCNICO (Grid Bento Compacto) */}
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-[var(--color-foreground)] mb-6 flex items-center gap-2">
+                        <svg className="w-6 h-6 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+                        Arsenal Técnico
+                    </h2>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        {/* Backend Card */}
+                        <div className="group bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-6 hover:border-[var(--color-primary)] transition-all hover:-translate-y-1">
+                            <div className="w-10 h-10 bg-red-500/10 rounded-lg flex items-center justify-center mb-4 text-xl">☕</div>
+                            <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-3">Backend Core</h3>
+                            <ul className="space-y-2 text-sm text-[var(--color-text-2)] font-medium">
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>Java & Spring Boot</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>Hibernate / JPA</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>API REST Design</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>.Net (Básico)</li>
+                            </ul>
+                        </div>
+
+                        {/* Frontend Card */}
+                        <div className="group bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-6 hover:border-[var(--color-secondary)] transition-all hover:-translate-y-1">
+                            <div className="w-10 h-10 bg-blue-500/10 rounded-lg flex items-center justify-center mb-4 text-xl">⚛️</div>
+                            <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-3">Frontend Moderno</h3>
+                            <ul className="space-y-2 text-sm text-[var(--color-text-2)] font-medium">
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>React & Next.js</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>TypeScript</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>Tailwind CSS</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>HTML5 & CSS3</li>
+                            </ul>
+                        </div>
+
+                        {/* Data Card */}
+                        <div className="group bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-6 hover:border-yellow-500 transition-all hover:-translate-y-1">
+                            <div className="w-10 h-10 bg-yellow-500/10 rounded-lg flex items-center justify-center mb-4 text-xl">🗄️</div>
+                            <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-3">Data & Tools</h3>
+                            <ul className="space-y-2 text-sm text-[var(--color-text-2)] font-medium">
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>MySQL & Postgres</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>Git & GitHub</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>MongoDB (Básico)</li>
+                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>Postman</li>
                             </ul>
                         </div>
                     </div>
                 </section>
 
-
-                {/* Formación */}
-                <section className="mb-16 bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-2xl p-8 hover:border-[var(--color-primary)] transition-colors">
-                    <h2 className="text-3xl font-semibold text-[var(--color-secondary)] mb-6">Formación</h2>
-                    <div className="space-y-6">
-                        <div className="border-l-4 border-[var(--color-primary)] pl-6">
-                            <h3 className="text-xl font-semibold text-[var(--color-foreground)]">
-                                Desarrollo de Aplicaciones Multiplataforma - Especialización Videojuegos (DAM-vi)
-                            </h3>
-                            <p className="text-[var(--color-text-3)] mt-1">Institut Sabadell • 2023-2025</p>
-                            <p className="text-[var(--color-text-2)] mt-3">
-                                Formación intensiva en desarrollo full-stack con enfoque en videojuegos. Durante el primer año trabajé fundamentos de programación orientada a objetos con Java (patrones de diseño como Observer, Factory), bases de datos relacionales (MySQL, PostgreSQL, MariaDB) y NoSQL (MongoDB), y frontend con HTML/CSS/JavaScript y librerías como jQuery. En segundo curso me especialicé en backend con frameworks enterprise (Spring Boot, Hibernate, Django, .NET/Entity Framework), frontend moderno con React y TypeScript (hooks, gestión de estado), desarrollo móvil nativo con Android Studio, y proyectos de videojuegos 2D/3D con Unity y C#.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Experiencia laboral (opcional) */}
-                <section className="mb-16 bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-2xl p-8 hover:border-[var(--color-primary)] transition-colors">
-                    <h2 className="text-3xl font-semibold text-[var(--color-secondary)] mb-6">Experiencia Laboral</h2>
-                    <p className="text-[var(--color-text-2)] mb-6">
-                        Mis 10 años en el sector logístico me han dado habilidades directamente aplicables al desarrollo de software: resolver problemas complejos dividiendo tareas, encontrar rutas alternativas cuando el camino principal falla, y mantener la calma bajo presión cuando surgen imprevistos. Estas competencias las aplico cada día cuando debugueo código, optimizo arquitecturas o busco soluciones creativas a retos técnicos.
-                    </p>
-
-                    <div className="space-y-4 text-[var(--color-text-2)]">
-                        {/* Puesto actual / reciente */}
-                        <div>
-                            <h3 className="text-lg font-semibold text-[var(--color-foreground)]">
-                                Desarrollador Fullstack • Tecnocim Innova • 2025-2026
-                            </h3>
-                            <p className="mt-2">
-                                Desarrollo de una webapp interna (Proyecto BIPI) para ayudar a consultores de innovación a hacer seguimiento de las empresas con las que trabajan. La aplicación permite gestionar empresas, colaboradores y proyectos, así como las evidencias, estados de aprobación e informes asociados. Trabajo en un stack fullstack usando Node.js con Tailwind CSS en el frontend, Spring Boot en el backend y PostgreSQL como base de datos principal.
-                            </p>
-                        </div>
-
-                        {/* Experiencia previa agrupada */}
-                        <div>
-                            <h3 className="text-lg font-semibold text-[var(--color-foreground)]">
-                                Sector de logística • 2014-2025
-                            </h3>
-                            <p className="mt-2">
-                                Experiencia combinada como mozo de almacén y repartidor, gestionando rutas, tiempos de entrega y organización de mercancía. Este trabajo me enseñó a priorizar tareas, trabajar bajo presión, coordinarme con equipos y mantener la atención al detalle, habilidades que ahora aplico a la planificación, desarrollo y mantenimiento de proyectos software.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-
-
-                {/* Hobbies / Intereses */}
+                {/* TRAYECTORIA (Timeline Ajustado) */}
                 <section className="mb-16">
-                    <h2 className="text-3xl font-semibold text-[var(--color-secondary)] mb-6">Más allá del código</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <div className="bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-xl p-6 text-center hover:border-[var(--color-secondary)] transition-colors">
-                            <div className="text-4xl mb-3">🎮</div>
-                            <h3 className="text-lg font-semibold text-[var(--color-foreground)] mb-2">[Videojuegos]</h3>
-                            <p className="text-[var(--color-text-2)] text-sm">Me encantan los juegos de puzles y estrategia, sobre todo los que plantean
-                                mecánicas ingeniosas. Entender cómo funcionan por dentro fue lo que me
-                                llevó a interesarme por el desarrollo.</p>
+                    <h2 className="text-2xl font-bold text-[var(--color-foreground)] mb-8">Trayectoria</h2>
+                    <div className="relative border-l border-[var(--color-border)] ml-3 space-y-10">
+
+                        {/* Item 1 - Puesto Actual */}
+                        <div className="relative pl-8 md:pl-10 group">
+                            <span className="absolute -left-[7px] top-2 w-3.5 h-3.5 rounded-full bg-[var(--color-primary)] ring-4 ring-[var(--color-background)]"></span>
+
+                            <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-1">
+                                <h3 className="text-lg font-bold text-[var(--color-foreground)]">Desarrollador Fullstack</h3>
+                                <span className="text-xs font-mono text-[var(--color-primary)] bg-[var(--color-primary)]/10 px-2 py-0.5 rounded">2025 - Presente</span>
+                            </div>
+
+                            <div className="text-base font-medium text-[var(--color-text-2)] mb-3">Tecnocim Innova • Proyecto BIPI</div>
+
+                            <div className="space-y-3 text-sm text-[var(--color-text-2)] max-w-3xl leading-relaxed bg-[var(--color-surface)]/30 p-4 rounded-xl border border-[var(--color-border)]/50">
+                                <p>
+                                    Desarrollo integral de una <strong>plataforma de gestión empresarial (ERP/SaaS)</strong> para bonificaciones a la Seguridad Social.
+                                </p>
+
+                                <ul className="space-y-2 mt-2">
+                                    <li className="flex gap-2 items-start">
+                                        <span className="text-[var(--color-primary)] mt-1 text-[10px]">●</span>
+                                        <span>
+                                            <strong className="text-[var(--color-foreground)]">Modelado de Datos:</strong> Diseño en PostgreSQL con jerarquías complejas: <em>Consultores → Empresas → Empleados → Proyectos</em>.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-2 items-start">
+                                        <span className="text-[var(--color-primary)] mt-1 text-[10px]">●</span>
+                                        <span>
+                                            <strong className="text-[var(--color-foreground)]">Lógica Avanzada:</strong> Máquina de estados para propagación de cambios y validaciones en cascada.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-2 items-start">
+                                        <span className="text-[var(--color-primary)] mt-1 text-[10px]">●</span>
+                                        <span>
+                                            <strong className="text-[var(--color-foreground)]">Seguridad:</strong> Auth completo, gestión de ficheros y auditoría de acciones.
+                                        </span>
+                                    </li>
+                                </ul>
+
+                                <div className="pt-2 flex flex-wrap gap-2">
+                                    <span className="px-2 py-1 bg-[var(--color-background)] border border-[var(--color-border)] rounded text-[10px] font-mono text-[var(--color-primary)]">Spring Boot</span>
+                                    <span className="px-2 py-1 bg-[var(--color-background)] border border-[var(--color-border)] rounded text-[10px] font-mono text-[var(--color-primary)]">React</span>
+                                    <span className="px-2 py-1 bg-[var(--color-background)] border border-[var(--color-border)] rounded text-[10px] font-mono text-[var(--color-primary)]">PostgreSQL</span>
+                                </div>
+                            </div>
                         </div>
-                        <div className="bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-xl p-6 text-center hover:border-[var(--color-secondary)] transition-colors">
-                            <div className="text-4xl mb-3">🎸</div>
-                            <h3 className="text-lg font-semibold text-[var(--color-foreground)] mb-2">[Música]</h3>
-                            <p className="text-[var(--color-text-2)] text-sm">Toco guitarra eléctrica y me gusta explorar estilos distintos. Para mí la
-                                música es otro espacio donde experimentar, probar cosas nuevas y buscar
-                                equilibrio entre técnica y creatividad.</p>
-                        </div>
-                        <div className="bg-[var(--color-surface)] border-2 border-[var(--color-border)] rounded-xl p-6 text-center hover:border-[var(--color-secondary)] transition-colors">
-                            <div className="text-4xl mb-3">📚</div>
-                            <h3 className="text-lg font-semibold text-[var(--color-foreground)] mb-2">[Lectura]</h3>
-                            <p className="text-[var(--color-text-2)] text-sm">Disfruto de la fantasía épica con sistemas de reglas y lógica claros.
-                                Me atraen las historias donde el ingenio y la planificación pesan más que
-                                la fuerza bruta.</p>
+
+                        {/* Item 2 - Logística */}
+                        <div className="relative pl-8 md:pl-10 group">
+                            <span className="absolute -left-[7px] top-2 w-3.5 h-3.5 rounded-full bg-[var(--color-border)] ring-4 ring-[var(--color-background)] group-hover:bg-[var(--color-secondary)] transition-colors"></span>
+                            <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-1">
+                                <h3 className="text-lg font-bold text-[var(--color-foreground)]">Sector Logístico</h3>
+                                <span className="text-xs font-mono text-[var(--color-text-3)]">2014 - 2025</span>
+                            </div>
+                            <div className="text-base font-medium text-[var(--color-text-2)] mb-2">Varias empresas</div>
+                            <p className="text-sm text-[var(--color-text-2)] max-w-2xl leading-relaxed">
+                                Gestión de rutas, resolución de incidencias en tiempo real y coordinación de equipos.
+                                <br/><span className="italic text-xs opacity-80">Aprendizaje clave: "Si algo puede fallar, fallará. Ten siempre un plan B."</span>
+                            </p>
                         </div>
                     </div>
                 </section>
 
-                {/* CTA final */}
-                <section className="text-center bg-gradient-to-r from-[var(--color-primary)]/10 via-[var(--color-secondary)]/10 to-[var(--color-highlight)]/10 border-2 border-[var(--color-primary)]/30 rounded-2xl p-12">
-                    <h2 className="text-3xl font-bold text-[var(--color-foreground)] mb-4">
-                        ¿Hablamos?
+                {/* FORMACIÓN (Compacto) */}
+                <section className="mb-16 bg-[var(--color-surface)]/30 border border-[var(--color-border)] rounded-2xl p-6">
+                    <div className="flex gap-4 items-start">
+                        <div className="hidden sm:block bg-[var(--color-background)] p-3 rounded-lg border border-[var(--color-border)]">
+                            <svg className="w-6 h-6 text-[var(--color-foreground)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l9-5-9-5-9 5 9 5z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /></svg>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-bold text-[var(--color-foreground)]">CFGS Desarrollo de Aplicaciones Multiplataforma</h3>
+                            <p className="text-sm text-[var(--color-text-2)] mb-2">Institut Sabadell • Especialización en Videojuegos</p>
+                            <p className="text-xs md:text-sm text-[var(--color-text-2)] max-w-3xl leading-relaxed text-pretty">
+                                Formación intensiva desde POO con Java hasta arquitecturas modernas. Proyectos destacados en <strong>Unity (C#)</strong> y desarrollo web Fullstack.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* INTERESES (Grid Compacto) */}
+                <section className="mb-20">
+                    <h2 className="text-2xl font-bold text-[var(--color-foreground)] mb-6">Off-Topic</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div className="p-5 rounded-2xl bg-[var(--color-background)] border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors flex items-center gap-3">
+                            <span className="text-2xl">🎮</span>
+                            <div>
+                                <h3 className="font-bold text-[var(--color-foreground)] text-sm">Gamer</h3>
+                                <p className="text-xs text-[var(--color-text-2)]">Estrategia y Puzles.</p>
+                            </div>
+                        </div>
+                        <div className="p-5 rounded-2xl bg-[var(--color-background)] border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors flex items-center gap-3">
+                            <span className="text-2xl">🎸</span>
+                            <div>
+                                <h3 className="font-bold text-[var(--color-foreground)] text-sm">Músico</h3>
+                                <p className="text-xs text-[var(--color-text-2)]">Guitarra eléctrica.</p>
+                            </div>
+                        </div>
+                        <div className="p-5 rounded-2xl bg-[var(--color-background)] border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-colors flex items-center gap-3">
+                            <span className="text-2xl">📚</span>
+                            <div>
+                                <h3 className="font-bold text-[var(--color-foreground)] text-sm">Lector</h3>
+                                <p className="text-xs text-[var(--color-text-2)]">Fantasía Épica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* CTA FINAL (Compacto) */}
+                <section className="text-center py-12 px-6 bg-gradient-to-b from-[var(--color-surface)] to-[var(--color-background)] border border-[var(--color-border)] rounded-3xl">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[var(--color-foreground)] mb-4">
+                        ¿Listo para trabajar juntos?
                     </h2>
-                    <p className="text-lg text-[var(--color-text-2)] mb-6 max-w-2xl mx-auto">
-                        [CTA: "Si buscas alguien motivado, que aprende rápido y aporta soluciones, conectemos"]
+                    <p className="text-base text-[var(--color-text-2)] mb-6 max-w-xl mx-auto">
+                        Busco un equipo donde pueda aportar mi energía y seguir creciendo. Si te encaja mi perfil, hablemos.
                     </p>
-                    <div className="flex gap-4 justify-center">
+                    <div className="flex flex-col sm:flex-row gap-3 justify-center">
                         <a
                             href="mailto:garciax207@gmail.com"
-                            className="px-8 py-3 bg-[var(--color-primary)] text-[var(--color-background)] rounded-lg font-semibold hover:bg-[var(--color-highlight)] hover:scale-105 transition-all duration-200 shadow-lg"
+                            className="px-6 py-3 bg-[var(--color-primary)] text-[var(--color-background)] rounded-xl font-bold hover:bg-[var(--color-highlight)] hover:-translate-y-1 transition-all shadow-lg text-sm"
                         >
-                            Enviar email
+                            Enviar Email
                         </a>
                         <a
                             href="https://www.linkedin.com/in/xavier-garcia-burgos-281696304/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="px-8 py-3 border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-lg font-semibold hover:bg-[var(--color-primary)] hover:text-[var(--color-background)] transition-all duration-200"
+                            className="px-6 py-3 bg-transparent border-2 border-[var(--color-border)] text-[var(--color-foreground)] rounded-xl font-bold hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-all text-sm"
                         >
-                            Ver LinkedIn
+                            LinkedIn
                         </a>
                     </div>
                 </section>
 
             </main>
-
-        </>
-    )
+        </div>
+    );
 }
