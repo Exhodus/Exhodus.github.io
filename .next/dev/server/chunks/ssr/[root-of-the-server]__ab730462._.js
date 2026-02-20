@@ -41,13 +41,13 @@ function AboutPage() {
                                 children: "."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 11,
+                                lineNumber: 13,
                                 columnNumber: 24
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 10,
+                        lineNumber: 11,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -59,7 +59,7 @@ function AboutPage() {
                                 children: "Proyectos"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 14,
+                                lineNumber: 16,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -68,19 +68,19 @@ function AboutPage() {
                                 children: "Volver al Inicio"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 17,
+                                lineNumber: 20,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 13,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/AboutPage.tsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -90,14 +90,14 @@ function AboutPage() {
                         className: "absolute top-20 right-0 w-64 h-64 bg-[var(--color-primary)]/5 rounded-full blur-[100px] -z-10"
                     }, void 0, false, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 26,
+                        lineNumber: 30,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute top-40 left-0 w-64 h-64 bg-[var(--color-secondary)]/5 rounded-full blur-[80px] -z-10"
                     }, void 0, false, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 27,
+                        lineNumber: 32,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -108,7 +108,7 @@ function AboutPage() {
                                 children: "Perfil Profesional"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 31,
+                                lineNumber: 37,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -117,7 +117,7 @@ function AboutPage() {
                                     "Más que código,",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 35,
+                                        lineNumber: 42,
                                         columnNumber: 40
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -125,27 +125,27 @@ function AboutPage() {
                                         children: "soluciones reales."
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 43,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 34,
+                                lineNumber: 41,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-base md:text-lg text-[var(--color-text-2)] max-w-2xl mx-auto leading-relaxed text-balance",
-                                children: "Full Stack Developer transformando 10 años de experiencia logística en software eficiente y escalable."
+                                children: "Backend Developer transformando 10 años de experiencia logística en software eficiente y escalable."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 40,
+                                lineNumber: 48,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 30,
+                        lineNumber: 36,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -162,14 +162,14 @@ function AboutPage() {
                                                 children: "👋"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 49,
+                                                lineNumber: 59,
                                                 columnNumber: 29
                                             }, this),
                                             " ¿Quién soy?"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 48,
+                                        lineNumber: 58,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -183,21 +183,21 @@ function AboutPage() {
                                                         children: "desarrollador de software"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 64,
                                                         columnNumber: 40
                                                     }, this),
                                                     ' apasionado por entender cómo funcionan las cosas "bajo el capó".'
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 63,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Mi trayectoria es poco convencional: durante una década trabajé en logística, donde aprendí a gestionar el caos, optimizar rutas y trabajar bajo presión. En 2023, decidí volcar esa mentalidad analítica en mi verdadera pasión: la programación."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 55,
+                                                lineNumber: 67,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -208,35 +208,35 @@ function AboutPage() {
                                                         children: "Spring Boot"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 73,
                                                         columnNumber: 77
                                                     }, this),
                                                     " y ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-[var(--color-primary)] font-medium",
-                                                        children: "React"
+                                                        children: "bases de datos relacionales"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 59,
-                                                        columnNumber: 158
+                                                        lineNumber: 74,
+                                                        columnNumber: 108
                                                     }, this),
                                                     ", buscando siempre el equilibrio entre un código limpio y una experiencia de usuario fluida."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 72,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 61,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 47,
+                                lineNumber: 56,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -250,7 +250,7 @@ function AboutPage() {
                                                 children: "10+"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 86,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -258,7 +258,7 @@ function AboutPage() {
                                                 children: "Años Logística"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 68,
+                                                lineNumber: 87,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -266,13 +266,13 @@ function AboutPage() {
                                                 children: "(Soft skills)"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 69,
+                                                lineNumber: 88,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 84,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -283,7 +283,7 @@ function AboutPage() {
                                                 children: "DAM"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 72,
+                                                lineNumber: 93,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -291,7 +291,7 @@ function AboutPage() {
                                                 children: "Graduado"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 94,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -299,25 +299,25 @@ function AboutPage() {
                                                 children: "Esp. Videojuegos"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 96,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 91,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 65,
+                                lineNumber: 83,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 46,
+                        lineNumber: 55,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -338,19 +338,19 @@ function AboutPage() {
                                             d: "M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/AboutPage.tsx",
-                                            lineNumber: 82,
-                                            columnNumber: 132
+                                            lineNumber: 106,
+                                            columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 104,
                                         columnNumber: 25
                                     }, this),
                                     "Arsenal Técnico"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 81,
+                                lineNumber: 103,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -364,7 +364,7 @@ function AboutPage() {
                                                 children: "☕"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 116,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -372,7 +372,7 @@ function AboutPage() {
                                                 children: "Backend Core"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 119,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -385,14 +385,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-red-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 92,
+                                                                lineNumber: 121,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "Java & Spring Boot"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 92,
+                                                        lineNumber: 121,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -402,14 +402,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-red-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 93,
+                                                                lineNumber: 124,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "Hibernate / JPA"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 93,
+                                                        lineNumber: 124,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -419,14 +419,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-red-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 94,
+                                                                lineNumber: 127,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "API REST Design"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 127,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -436,26 +436,26 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-red-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 95,
+                                                                lineNumber: 130,
                                                                 columnNumber: 73
                                                             }, this),
                                                             ".Net (Básico)"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 95,
+                                                        lineNumber: 130,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 120,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 114,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,7 +466,7 @@ function AboutPage() {
                                                 children: "⚛️"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 139,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -474,7 +474,7 @@ function AboutPage() {
                                                 children: "Frontend Moderno"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 142,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -487,14 +487,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-blue-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 104,
+                                                                lineNumber: 144,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "React & Next.js"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 104,
+                                                        lineNumber: 144,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -504,14 +504,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-blue-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 105,
+                                                                lineNumber: 147,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "TypeScript"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 105,
+                                                        lineNumber: 147,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -521,14 +521,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-blue-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 106,
+                                                                lineNumber: 150,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "Tailwind CSS"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 150,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -538,26 +538,26 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-blue-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 107,
+                                                                lineNumber: 153,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "HTML5 & CSS3"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 107,
+                                                        lineNumber: 153,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 143,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 137,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -568,7 +568,7 @@ function AboutPage() {
                                                 children: "🗄️"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 162,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -576,7 +576,7 @@ function AboutPage() {
                                                 children: "Data & Tools"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 165,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -589,14 +589,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-yellow-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 116,
+                                                                lineNumber: 167,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "MySQL & Postgres"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 116,
+                                                        lineNumber: 167,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -606,14 +606,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-yellow-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 170,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "Git & GitHub"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 117,
+                                                        lineNumber: 170,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -623,14 +623,14 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-yellow-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 118,
+                                                                lineNumber: 173,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "MongoDB (Básico)"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 118,
+                                                        lineNumber: 173,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -640,38 +640,38 @@ function AboutPage() {
                                                                 className: "w-1.5 h-1.5 rounded-full bg-yellow-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 119,
+                                                                lineNumber: 176,
                                                                 columnNumber: 73
                                                             }, this),
                                                             "Postman"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 176,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 166,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 112,
+                                        lineNumber: 160,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 86,
+                                lineNumber: 112,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 80,
+                        lineNumber: 102,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -682,7 +682,7 @@ function AboutPage() {
                                 children: "Trayectoria"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 127,
+                                lineNumber: 186,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -695,7 +695,7 @@ function AboutPage() {
                                                 className: "absolute -left-[7px] top-2 w-3.5 h-3.5 rounded-full bg-[var(--color-primary)] ring-4 ring-[var(--color-background)]"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 132,
+                                                lineNumber: 191,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -706,21 +706,21 @@ function AboutPage() {
                                                         children: "Desarrollador Fullstack"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 135,
+                                                        lineNumber: 195,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-xs font-mono text-[var(--color-primary)] bg-[var(--color-primary)]/10 px-2 py-0.5 rounded",
-                                                        children: "2025 - Presente"
+                                                        children: "Júlio 2025 - Febrero 2026"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 136,
+                                                        lineNumber: 197,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 194,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -728,7 +728,7 @@ function AboutPage() {
                                                 children: "Tecnocim Innova • Proyecto BIPI"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 201,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -741,14 +741,14 @@ function AboutPage() {
                                                                 children: "plataforma de gestión empresarial (ERP/SaaS)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 143,
+                                                                lineNumber: 208,
                                                                 columnNumber: 64
                                                             }, this),
                                                             " para bonificaciones a la Seguridad Social."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 142,
+                                                        lineNumber: 207,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -762,7 +762,7 @@ function AboutPage() {
                                                                         children: "●"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                                        lineNumber: 148,
+                                                                        lineNumber: 214,
                                                                         columnNumber: 41
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -772,7 +772,7 @@ function AboutPage() {
                                                                                 children: "Modelado de Datos:"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                                lineNumber: 150,
+                                                                                lineNumber: 216,
                                                                                 columnNumber: 45
                                                                             }, this),
                                                                             " Diseño en PostgreSQL con jerarquías complejas: ",
@@ -780,20 +780,20 @@ function AboutPage() {
                                                                                 children: "Consultores → Empresas → Empleados → Proyectos"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                                lineNumber: 150,
-                                                                                columnNumber: 171
+                                                                                lineNumber: 217,
+                                                                                columnNumber: 167
                                                                             }, this),
                                                                             "."
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                                        lineNumber: 149,
+                                                                        lineNumber: 215,
                                                                         columnNumber: 41
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 147,
+                                                                lineNumber: 213,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -804,7 +804,7 @@ function AboutPage() {
                                                                         children: "●"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                                        lineNumber: 154,
+                                                                        lineNumber: 221,
                                                                         columnNumber: 41
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -814,20 +814,20 @@ function AboutPage() {
                                                                                 children: "Lógica Avanzada:"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                                lineNumber: 156,
+                                                                                lineNumber: 223,
                                                                                 columnNumber: 45
                                                                             }, this),
                                                                             " Máquina de estados para propagación de cambios y validaciones en cascada."
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                                        lineNumber: 155,
+                                                                        lineNumber: 222,
                                                                         columnNumber: 41
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 153,
+                                                                lineNumber: 220,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -838,7 +838,7 @@ function AboutPage() {
                                                                         children: "●"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                                        lineNumber: 160,
+                                                                        lineNumber: 227,
                                                                         columnNumber: 41
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -848,26 +848,26 @@ function AboutPage() {
                                                                                 children: "Seguridad:"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                                lineNumber: 162,
+                                                                                lineNumber: 229,
                                                                                 columnNumber: 45
                                                                             }, this),
                                                                             " Auth completo, gestión de ficheros y auditoría de acciones."
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                                        lineNumber: 161,
+                                                                        lineNumber: 228,
                                                                         columnNumber: 41
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 159,
+                                                                lineNumber: 226,
                                                                 columnNumber: 37
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 212,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -878,7 +878,7 @@ function AboutPage() {
                                                                 children: "Spring Boot"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 168,
+                                                                lineNumber: 235,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -886,7 +886,7 @@ function AboutPage() {
                                                                 children: "React"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 169,
+                                                                lineNumber: 237,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -894,25 +894,25 @@ function AboutPage() {
                                                                 children: "PostgreSQL"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                                lineNumber: 170,
+                                                                lineNumber: 239,
                                                                 columnNumber: 37
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 167,
+                                                        lineNumber: 234,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 141,
+                                                lineNumber: 205,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 131,
+                                        lineNumber: 190,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -922,7 +922,7 @@ function AboutPage() {
                                                 className: "absolute -left-[7px] top-2 w-3.5 h-3.5 rounded-full bg-[var(--color-border)] ring-4 ring-[var(--color-background)] group-hover:bg-[var(--color-secondary)] transition-colors"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 247,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -933,7 +933,7 @@ function AboutPage() {
                                                         children: "Sector Logístico"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 250,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -941,13 +941,13 @@ function AboutPage() {
                                                         children: "2014 - 2025"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 180,
+                                                        lineNumber: 251,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 178,
+                                                lineNumber: 249,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -955,7 +955,7 @@ function AboutPage() {
                                                 children: "Varias empresas"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 182,
+                                                lineNumber: 253,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -964,7 +964,7 @@ function AboutPage() {
                                                     "Gestión de rutas, resolución de incidencias en tiempo real y coordinación de equipos.",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 185,
+                                                        lineNumber: 256,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -972,31 +972,31 @@ function AboutPage() {
                                                         children: 'Aprendizaje clave: "Si algo puede fallar, fallará. Ten siempre un plan B."'
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 185,
+                                                        lineNumber: 256,
                                                         columnNumber: 38
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 254,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 246,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 128,
+                                lineNumber: 187,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 126,
+                        lineNumber: 185,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1019,8 +1019,8 @@ function AboutPage() {
                                                 d: "M12 14l9-5-9-5-9 5 9 5z"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 195,
-                                                columnNumber: 139
+                                                lineNumber: 270,
+                                                columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 strokeLinecap: "round",
@@ -1029,18 +1029,18 @@ function AboutPage() {
                                                 d: "M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 195,
-                                                columnNumber: 238
+                                                lineNumber: 272,
+                                                columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 195,
+                                        lineNumber: 268,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/AboutPage.tsx",
-                                    lineNumber: 194,
+                                    lineNumber: 266,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1050,7 +1050,7 @@ function AboutPage() {
                                             children: "CFGS Desarrollo de Aplicaciones Multiplataforma"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/AboutPage.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 277,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1058,7 +1058,7 @@ function AboutPage() {
                                             children: "Institut Sabadell • Especialización en Videojuegos"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/AboutPage.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 279,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1069,31 +1069,31 @@ function AboutPage() {
                                                     children: "Unity (C#)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/AboutPage.tsx",
-                                                    lineNumber: 201,
-                                                    columnNumber: 126
+                                                    lineNumber: 283,
+                                                    columnNumber: 47
                                                 }, this),
                                                 " y desarrollo web Fullstack."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/AboutPage.tsx",
-                                            lineNumber: 200,
+                                            lineNumber: 281,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/AboutPage.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 276,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/AboutPage.tsx",
-                            lineNumber: 193,
+                            lineNumber: 265,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 192,
+                        lineNumber: 263,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1104,7 +1104,7 @@ function AboutPage() {
                                 children: "Off-Topic"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 209,
+                                lineNumber: 291,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1118,7 +1118,7 @@ function AboutPage() {
                                                 children: "🎮"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 212,
+                                                lineNumber: 295,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1128,7 +1128,7 @@ function AboutPage() {
                                                         children: "Gamer"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 214,
+                                                        lineNumber: 297,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1136,19 +1136,19 @@ function AboutPage() {
                                                         children: "Estrategia y Puzles."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 215,
+                                                        lineNumber: 298,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 213,
+                                                lineNumber: 296,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 293,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1159,7 +1159,7 @@ function AboutPage() {
                                                 children: "🎸"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 219,
+                                                lineNumber: 303,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1169,7 +1169,7 @@ function AboutPage() {
                                                         children: "Músico"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 305,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1177,19 +1177,19 @@ function AboutPage() {
                                                         children: "Guitarra eléctrica."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 222,
+                                                        lineNumber: 306,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 304,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 218,
+                                        lineNumber: 301,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1200,7 +1200,7 @@ function AboutPage() {
                                                 children: "📚"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 226,
+                                                lineNumber: 311,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1210,7 +1210,7 @@ function AboutPage() {
                                                         children: "Lector"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 228,
+                                                        lineNumber: 313,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1218,31 +1218,31 @@ function AboutPage() {
                                                         children: "Fantasía Épica."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                                        lineNumber: 229,
+                                                        lineNumber: 314,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                                lineNumber: 227,
+                                                lineNumber: 312,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 225,
+                                        lineNumber: 309,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 210,
+                                lineNumber: 292,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 208,
+                        lineNumber: 290,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1253,7 +1253,7 @@ function AboutPage() {
                                 children: "¿Listo para trabajar juntos?"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 237,
+                                lineNumber: 323,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1261,7 +1261,7 @@ function AboutPage() {
                                 children: "Busco un equipo donde pueda aportar mi energía y seguir creciendo. Si te encaja mi perfil, hablemos."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 240,
+                                lineNumber: 326,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1273,7 +1273,7 @@ function AboutPage() {
                                         children: "Enviar Email"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 244,
+                                        lineNumber: 331,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1284,25 +1284,25 @@ function AboutPage() {
                                         children: "LinkedIn"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/AboutPage.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 337,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/AboutPage.tsx",
-                                lineNumber: 243,
+                                lineNumber: 330,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/AboutPage.tsx",
-                        lineNumber: 236,
+                        lineNumber: 321,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/AboutPage.tsx",
-                lineNumber: 23,
+                lineNumber: 27,
                 columnNumber: 13
             }, this)
         ]

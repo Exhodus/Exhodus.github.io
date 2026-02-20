@@ -69,46 +69,6 @@ function FrontPage() {
                                     fileName: "[project]/app/components/FrontPage.tsx",
                                     lineNumber: 23,
                                     columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute bottom-2 right-2 z-20 bg-[var(--color-background)] py-1.5 px-3 rounded-full shadow-lg border border-[var(--color-border)] flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "relative flex h-2.5 w-2.5",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/components/FrontPage.tsx",
-                                                    lineNumber: 34,
-                                                    columnNumber: 33
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/components/FrontPage.tsx",
-                                                    lineNumber: 35,
-                                                    columnNumber: 33
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/components/FrontPage.tsx",
-                                            lineNumber: 33,
-                                            columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-[10px] font-bold tracking-wider text-[var(--color-foreground)]",
-                                            children: "OPEN TO WORK"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/components/FrontPage.tsx",
-                                            lineNumber: 37,
-                                            columnNumber: 29
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/components/FrontPage.tsx",
-                                    lineNumber: 32,
-                                    columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -167,7 +127,7 @@ function FrontPage() {
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialCard, {
-                                    href: "/xaviCV.pdf",
+                                    href: "/XaviGarciaBurgos.pdf",
                                     isIcon: true,
                                     label: "CV",
                                     download: true,
@@ -278,7 +238,7 @@ function FrontPage() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "text-sm font-medium text-[var(--color-secondary)] tracking-widest uppercase",
-                                            children: "Junior Software Developer"
+                                            children: "Junior Backend Developer | Spring Boot & JPA"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/FrontPage.tsx",
                                             lineNumber: 78,
@@ -373,7 +333,14 @@ function FrontPage() {
                                                         lineNumber: 102,
                                                         columnNumber: 37
                                                     }, this),
-                                                    " Spring Boot & JPA"
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                        children: "Java 21 | Spring Boot & JPA"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/components/FrontPage.tsx",
+                                                        lineNumber: 102,
+                                                        columnNumber: 102
+                                                    }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/FrontPage.tsx",
@@ -384,14 +351,14 @@ function FrontPage() {
                                                 className: "flex items-center gap-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-blue-400 text-base",
-                                                        children: "⚛️"
+                                                        className: "text-yellow-500 text-base",
+                                                        children: "🗄️"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/FrontPage.tsx",
                                                         lineNumber: 105,
-                                                        columnNumber: 37
+                                                        columnNumber: 33
                                                     }, this),
-                                                    " React & Next.js"
+                                                    " MySQL & PostgreSQL"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/FrontPage.tsx",
@@ -402,14 +369,14 @@ function FrontPage() {
                                                 className: "flex items-center gap-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-yellow-500 text-base",
-                                                        children: "🗄️"
+                                                        className: "text-blue-400 text-base",
+                                                        children: "⚛️"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/FrontPage.tsx",
                                                         lineNumber: 108,
                                                         columnNumber: 37
                                                     }, this),
-                                                    " MySQL & PostgreSQL"
+                                                    " React & Next.js"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/FrontPage.tsx",
@@ -511,22 +478,22 @@ function SocialCard({ href, icon, isIcon, children, label, download, isPrimary }
             children: children
         }, void 0, false, {
             fileName: "[project]/app/components/FrontPage.tsx",
-            lineNumber: 148,
+            lineNumber: 157,
             columnNumber: 17
         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-            src: icon,
+            src: icon || '',
             width: 20,
             height: 20,
             alt: label,
             className: "transition-transform group-hover:scale-110 duration-300 opacity-90 group-hover:opacity-100"
         }, void 0, false, {
             fileName: "[project]/app/components/FrontPage.tsx",
-            lineNumber: 152,
+            lineNumber: 161,
             columnNumber: 17
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/FrontPage.tsx",
-        lineNumber: 135,
+        lineNumber: 144,
         columnNumber: 9
     }, this);
 }

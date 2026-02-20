@@ -28,14 +28,14 @@ export default function FrontPage() {
                             alt="Xavi García Burgos"
                             priority
                         />
-                        {/* Badge Flotante */}
+                        {/* Badge Flotante
                         <div className="absolute bottom-2 right-2 z-20 bg-[var(--color-background)] py-1.5 px-3 rounded-full shadow-lg border border-[var(--color-border)] flex items-center gap-2">
                             <span className="relative flex h-2.5 w-2.5">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
                             </span>
                             <span className="text-[10px] font-bold tracking-wider text-[var(--color-foreground)]">OPEN TO WORK</span>
-                        </div>
+                        </div>*/}
                     </div>
 
                     {/* Redes Sociales (Iconos un pelín más pequeños) */}
@@ -45,7 +45,7 @@ export default function FrontPage() {
                         <SocialCard href="mailto:garciax207@gmail.com" isIcon label="Email">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                         </SocialCard>
-                        <SocialCard href="/xaviCV.pdf" isIcon label="CV" download isPrimary>
+                        <SocialCard href="/XaviGarciaBurgos.pdf" isIcon label="CV" download isPrimary>
                             <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
                         </SocialCard>
                     </div>
@@ -76,7 +76,7 @@ export default function FrontPage() {
                         {/* TÍTULO (Bajado de 7xl a 5xl) */}
                         <div className="space-y-1">
                             <h2 className="text-sm font-medium text-[var(--color-secondary)] tracking-widest uppercase">
-                                Junior Software Developer
+                                Junior Backend Developer | Spring Boot & JPA
                             </h2>
                             <h1 className="text-4xl lg:text-5xl font-bold text-[var(--color-foreground)] leading-tight">
                                 Xavi García <br/>
@@ -99,13 +99,13 @@ export default function FrontPage() {
                         <div className="py-3 border-t border-b border-[var(--color-border)]/50 my-1">
                             <ul className="grid grid-cols-2 gap-y-2 gap-x-4 text-xs lg:text-sm font-medium text-[var(--color-text-2)]/90">
                                 <li className="flex items-center gap-2">
-                                    <span className="text-[var(--color-primary)] text-base">☕</span> Spring Boot & JPA
+                                    <span className="text-[var(--color-primary)] text-base">☕</span> <strong>Java 21 | Spring Boot & JPA</strong>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                <span className="text-yellow-500 text-base">🗄️</span> MySQL & PostgreSQL
                                 </li>
                                 <li className="flex items-center gap-2">
                                     <span className="text-blue-400 text-base">⚛️</span> React & Next.js
-                                </li>
-                                <li className="flex items-center gap-2">
-                                    <span className="text-yellow-500 text-base">🗄️</span> MySQL & PostgreSQL
                                 </li>
                                 <li className="flex items-center gap-2">
                                     <span className="text-orange-500 text-base">🚀</span> API REST & Git
